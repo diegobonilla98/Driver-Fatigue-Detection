@@ -3,6 +3,11 @@ Lightweight Driver Fatigue detection
 
 This project uses the Mediapipe library to detect driver fatigue by monitoring eye blinking and yawns in real-time. It can be used on portable PCs like Raspberry Pi due to its lightness, and only requires a webcam pointing at the driver to function.
 
+## TO-DO
+I wanted to implement this on a RaspberryPi and test it on real driving adding a red light when it detects high amounts of tiredness. Maybe an alarm or a vibrating device can be added to prevent the driver from sleeping. 
+Also, a head angle detection can be implemented to assert that the driver is looking at the street, but then some additional detection or camera angle restrictions for the camera positioning may have to be added. So something to ki
+Overall, nothing new, I just wanted to implement this because I'm bored.
+
 ## Requirements
 To use this program, you'll need:
 
